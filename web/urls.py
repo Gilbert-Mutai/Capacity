@@ -6,8 +6,13 @@ from . import views
 
 urlpatterns =[
     path('', views.index,name='home'),
+    path("about-us/", views.aboutUs, name="about-us"),
+    path("contact-us/", views.contactUs, name="contact-us"),
+    path("projects/", views.projects, name="projects"),
+    path("shop/", views.shop, name="shop"),
+    path("solutions/", views.solutions, name="solutions"),
     # path('', include("django.contrib.auth.urls")),
-    # path("register/", views.register, name="register"),
+    
 
 ]
 
