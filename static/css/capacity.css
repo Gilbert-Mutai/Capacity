@@ -1,0 +1,130 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: "Montserrat";
+}
+
+
+.wrapper {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/landing-image.jpeg');
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+
+.welcome-message{
+
+    padding-top: 10rem;
+}
+
+.top-nav{
+    min-height: 10vh;
+   
+    
+}
+
+.top-items{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    /* margin-left: 50px; */
+}
+
+.bi-geo-alt,.bi-telephone-plus{
+
+    color:green;
+    font-size:xx-large;
+
+}
+
+
+.top-item{
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.nav-elements{
+    margin-left: 80px;
+  
+}
+
+.ul-items{
+
+    padding-right: 60px;
+    margin-right: 40px;
+}
+
+.bi-facebook,.bi-linkedin,.bi-instagram{
+
+    color:white;
+    font-size:x-large;
+    margin-right: 20px;
+
+}
+
+.social-items{
+    padding-right: 40px;
+    
+}
+
+/* what we do section */
+
+.what-we-do{
+   
+    /* min-height: 100vh; */
+    background-color:rgb(207, 255, 255);
+}
+
+.heading{
+    color: green;
+    padding-top: 5px;
+
+    font-weight: bold;
+}
+
+.we-do-statement h5{
+    color: #23395d;
+
+}
+
+h3{
+    color:#23395d ;
+}
+
+
+.read-more {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}
+
+.card h5{
+
+    color:#23395d
+}
+
+.card::before {
+    content: "";
+    height: 3px;
+    background-color: #23395d;
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: all 0.5s ease;
+}
+
+.card:hover::before {
+    width: 100%;
+}
+
+
+
