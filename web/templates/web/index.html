@@ -1,20 +1,20 @@
-{% extends 'main.html' %} {% block content %}
+{% extends 'main.html' %} 
 
-<div class="container-fluid" onload="typeWriter()">
+{% block content %}
+
+<div class="container-fluid">
   <div class="row wrapper">
     <div class="col-md-1"></div>
 
     <div class="col-md-10">
-
-      <div id="capacity" class="text-white"> -->
-
-        <h2 class="welcome-message">We are Capacity Limited<br><br>
+      <div id="capacity" class="text-white">
+  
+        <h2 class="welcome-message">
+          We are Capacity Limited<br /><br />
           IoT & AI Technology-based, Smart Utility Metering & Utility Auditing
           Company in water, gas and energy.
-        </h2> -->
-
-       </div>
-
+        </h2>
+      </div>
     </div>
 
     <div class="col-md-1"></div>
@@ -26,20 +26,18 @@
     </div>
 
     <div class="row we-do-statement">
-
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <h5 class="we-do-intro text-center">
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making it
-          over 2000 years old. Richard McClintock. Contrary to popular belief,
-          Lorem Ipsum is not simply random text. It has roots in a piece of
-          classical Latin literature from 45 BC, making it over 2000 years old.
-          Richard McClintock.
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock. Contrary to popular
+          belief, Lorem Ipsum is not simply random text. It has roots in a piece
+          of classical Latin literature from 45 BC, making it over 2000 years
+          old. Richard McClintock.
         </h5>
       </div>
       <div class="col-md-1"></div>
-      
     </div>
 
     <div class="row service-items py-3">
@@ -170,15 +168,13 @@
   <!-- Testimonials section -->
 
   <div class="row testimonies text-center pt-5">
-
     <h2 class="heading">Testimonials</h2>
 
-    <h3 class="text-center" >What Our Clients Says</h3>
+    <h3 class="text-center">What Our Clients Says</h3>
 
     <section class="testimonial-section">
       <div class="testimonial mySwiper">
         <div class="testi-content swiper-wrapper">
-  
           <div class="slide swiper-slide">
             <img
               src="/static/img/testimonial-img/img1.jpg"
@@ -191,9 +187,9 @@
               eligendi ipsum adipisci, fugit, architecto amet asperiores
               doloremque deserunt eum nemo.
             </p>
-  
+
             <i class="bx bxs-quote-alt-left quote-icon"></i>
-  
+
             <div class="details">
               <span class="name">Marnie Lotter</span>
               <span class="job">Web Developer</span>
@@ -211,9 +207,9 @@
               eligendi ipsum adipisci, fugit, architecto amet asperiores
               doloremque deserunt eum nemo.
             </p>
-  
+
             <i class="bx bxs-quote-alt-left quote-icon"></i>
-  
+
             <div class="details">
               <span class="name">Marnie Lotter</span>
               <span class="job">Web Developer</span>
@@ -231,9 +227,9 @@
               eligendi ipsum adipisci, fugit, architecto amet asperiores
               doloremque deserunt eum nemo.
             </p>
-  
+
             <i class="bx bxs-quote-alt-left quote-icon"></i>
-  
+
             <div class="details">
               <span class="name">Marnie Lotter</span>
               <span class="job">Web Developer</span>
@@ -245,11 +241,7 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
-
-
   </div>
-
- 
 </div>
 
 {% endblock content %}

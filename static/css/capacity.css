@@ -106,6 +106,12 @@ h3{
     color: green;
 }
 
+.card{
+    border: 1px solid grey;
+    border-radius: 7px;
+ 
+}
+
 .card h5{
 
     color:#23395d
@@ -122,11 +128,14 @@ h3{
     right: 0;
     margin: auto;
     transition: all 0.5s ease;
+ 
 }
 
 .card:hover::before {
     width: 100%;
 }
+
+
 
 
 
