@@ -10,6 +10,7 @@
 
 .testimonies{
   background-color: aliceblue;
+  /* background: url("../img/bg5.jpg") no-repeat center center/cover; */
   height: 80vh;
   width: 100%;
 }

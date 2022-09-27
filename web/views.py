@@ -10,9 +10,9 @@ def aboutUs(request):
     return render(request,'web/aboutUs.html')
 
 
-def solutions(request):
+# def solutions(request):
 
-    return render(request,'web/solutions.html')
+#     return render(request,'web/solutions.html')
 
 def shop(request):
 
