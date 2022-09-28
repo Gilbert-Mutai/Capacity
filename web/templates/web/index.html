@@ -175,66 +175,28 @@
     <section class="testimonial-section">
       <div class="testimonial mySwiper">
         <div class="testi-content swiper-wrapper">
+
+          <!-- looping through -->
+          {% for testimonial in testimonials %}
+
           <div class="slide swiper-slide">
             <img
-              src="/static/img/testimonial-img/img1.jpg"
-              alt=""
+              src="{{ testimonial.image.url }}" 
+              alt="Image"
               class="image"
             />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-              saepe provident dolorem a quaerat quo error facere nihil deleniti
-              eligendi ipsum adipisci, fugit, architecto amet asperiores
-              doloremque deserunt eum nemo.
-            </p>
+            <p>{{testimonial.comment}}</p>
 
             <i class="bx bxs-quote-alt-left quote-icon"></i>
 
             <div class="details">
-              <span class="name">Marnie Lotter</span>
-              <span class="job">Web Developer</span>
+              <span class="name">{{testimonial.name}}</span>
+              <span class="job">{{testimonial.job}}</span>
             </div>
           </div>
-          <div class="slide swiper-slide">
-            <img
-              src="/static/img/testimonial-img/img2.jpg"
-              alt=""
-              class="image"
-            />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-              saepe provident dolorem a quaerat quo error facere nihil deleniti
-              eligendi ipsum adipisci, fugit, architecto amet asperiores
-              doloremque deserunt eum nemo.
-            </p>
 
-            <i class="bx bxs-quote-alt-left quote-icon"></i>
-
-            <div class="details">
-              <span class="name">Marnie Lotter</span>
-              <span class="job">Web Developer</span>
-            </div>
-          </div>
-          <div class="slide swiper-slide">
-            <img
-              src="/static/img/testimonial-img/img3.jpg"
-              alt=""
-              class="image"
-            />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-              saepe provident dolorem a quaerat quo error facere nihil deleniti
-              eligendi ipsum adipisci, fugit, architecto amet asperiores
-              doloremque deserunt eum nemo.
-            </p>
-
-            <i class="bx bxs-quote-alt-left quote-icon"></i>
-
-            <div class="details">
-              <span class="name">Marnie Lotter</span>
-              <span class="job">Web Developer</span>
-            </div>
-          </div>
+          {% endfor %}
+      
         </div>
         <div class="swiper-button-next nav-btn"></div>
         <div class="swiper-button-prev nav-btn"></div>

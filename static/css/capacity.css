@@ -131,11 +131,11 @@ h3{
     color: green;
 }
 
-.card{
+/* .card{
     border: 1px solid grey;
     border-radius: 7px;
  
-}
+} */
 
 .card h5{
 
@@ -163,15 +163,22 @@ h3{
 /* Contact stylings */
 
 .map{
-    margin-top: 10px;
+    margin-top: 3px;
+    margin-bottom: 40px;
+    /* padding-bottom: 20px; */
     display: flex;
     justify-content: center;
+   
+}
+iframe{
+    border: 1px solid grey;
+    border-radius: 10px;
 }
 
 #section-wrapper{
     width: 100%;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 .box-wrapper{
     position: relative;
@@ -184,7 +191,7 @@ h3{
 }
 .info-wrap{
     width:35%;
-    height: 562px;
+    height: 570px;
     padding: 40px;
     float: left;
     display: block;
@@ -199,6 +206,7 @@ h3{
 }
 .info-sub-title{
     font-size: 18px;
+    color: #fff;
     font-weight: 300;
     margin-top: 17px;
     letter-spacing: 0.5px;
@@ -250,7 +258,7 @@ h3{
 }
 .form-wrap{
     width:65%;
-    height: 562px;
+    height: 570px;
     float: right;
     padding:40px 25px 35px 25px;
     border-radius: 0px 30px 30px 0px;
@@ -353,7 +361,8 @@ h3{
 
 .box{
    width: 1200px;
-   margin: 100px auto;
+   /* margin-top: 10px; */
+   margin:auto;
    background: #fff;
    border-radius: 7px;
    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
