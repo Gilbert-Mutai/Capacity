@@ -48,6 +48,7 @@ body{
 
 .top-nav{
     min-height: 10vh;
+    background-color: #f4f4f4;
    
     
 }
@@ -56,9 +57,11 @@ body{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    padding: auto;
 
-    /* margin-left: 50px; */
+
 }
+
 
 .bi-geo-alt,.bi-telephone-plus{
 
@@ -178,8 +181,10 @@ iframe{
 #section-wrapper{
     width: 100%;
     margin-top: 0px;
-    margin-bottom: 30px;
+
 }
+
+
 .box-wrapper{
     position: relative;
     display: table;
@@ -191,7 +196,7 @@ iframe{
 }
 .info-wrap{
     width:35%;
-    height: 570px;
+    height: 560px;
     padding: 40px;
     float: left;
     display: block;
@@ -258,7 +263,7 @@ iframe{
 }
 .form-wrap{
     width:65%;
-    height: 570px;
+    height: 560px;
     float: right;
     padding:40px 25px 35px 25px;
     border-radius: 0px 30px 30px 0px;
@@ -360,9 +365,8 @@ iframe{
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 .box{
-   width: 1200px;
-   /* margin-top: 10px; */
    margin:auto;
+   width: 75%;
    background: #fff;
    border-radius: 7px;
    box-shadow: 1px 2px 4px rgba(0,0,0,.3);

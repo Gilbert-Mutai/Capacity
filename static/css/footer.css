@@ -24,18 +24,29 @@ footer {
     font: bold 16px sans-serif;
     padding: 50px 50px 60px 50px;
     margin-bottom: 30px;
-    /* margin-top: 80px;  */
+
 }
 
-.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+.footer-logo img{
+
+    height: 170px;
+    width: 170px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-logo,.footer-distributed .footer-center, .footer-distributed .footer-right {
     display: inline-block;
     vertical-align: top;
+}
+
+/* Logo section */
+.footer-distributed .footer-logo {
+    width: 10%;
 }
 
 /* Footer left */
 
 .footer-distributed .footer-left {
-    width: 30%;
+    width: 26%;
 }
 
 .footer-distributed h3 {
@@ -73,7 +84,7 @@ footer {
 /* Footer Center */
 
 .footer-distributed .footer-center {
-    width: 35%;
+    width: 26%;
 }
 
 .footer-distributed .footer-center i {
@@ -117,8 +128,10 @@ footer {
 /* Footer Right */
 
 .footer-distributed .footer-right {
-    width: 30%;
+    width: 26%;
+   
 }
+
 
 .footer-distributed .footer-company-about {
     line-height: 20px;

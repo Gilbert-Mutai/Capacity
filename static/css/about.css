@@ -5,7 +5,15 @@
 .about-wrapper{
     background-color: aliceblue;
 }
+.profile{
 
+  display: flex;
+  justify-content: right;
+  padding: 20px;
+}
+.profile .btn{
+  margin-left: 8px;
+}
 .about-1{
     margin-left: 30px;
     margin-right: 30px;
@@ -98,16 +106,6 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
 
 @import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
 
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body{
-  background: #81c644;
-  font-family: 'Josefin Sans', sans-serif;
-} */
 
 .team-wrapper{
   /* margin-top: 4%; */
