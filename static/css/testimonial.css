@@ -8,25 +8,24 @@
   font-family: "Poppins", sans-serif;
 }
 
-.testimonies{
-  background-color: #f4f4f4;
-  /* background: url("../img/bg5.jpg") no-repeat center center/cover; */
-  height:fit-content;;
-  width: 100%;
- 
+.testimonies {
+  background-color: rgb(12, 74, 12);
+  height: fit-content;
+}
+.test-heading {
+  color: #fff;
+}
+.testimonies h2 h3 {
+  color: #fff;
 }
 .testimonial-section {
-  /* height: 100vh;
-  width: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #e3f2fd; */
 }
 .testimonial {
   position: relative;
-  max-width: 900px;
-  width: 100%;
+  width: 900px;
   padding: 50px 0;
   overflow: hidden;
 }
@@ -50,11 +49,11 @@
   padding: 0 160px;
   font-size: 14px;
   font-weight: 400;
-  color: #333;
+  color: #fff;
 }
 .slide .quote-icon {
   font-size: 30px;
-  color: green;
+  color: #fff;
 }
 .slide .details {
   display: flex;
@@ -64,12 +63,12 @@
 .details .name {
   font-size: 14px;
   font-weight: 600;
-  color: #333;
+  color: #fff;
 }
 .details .job {
   font-size: 12px;
   font-weight: 400;
-  color: #333;
+  color: #fff;
 }
 /* swiper button css */
 .nav-btn {
@@ -89,10 +88,10 @@
   color: #fff;
 }
 .swiper-pagination-bullet {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #fff;
 }
 .swiper-pagination-bullet-active {
-  background-color: green;
+  background-color: rgb(0, 15, 146);
   margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {

@@ -1,19 +1,13 @@
-{% extends 'main.html' %} 
+{% extends 'main.html' %} {% block content %}
 
-{% block content %}
-
-<div class="container-fluid">
+<div class="container-fluid full-screen">
   <div class="row wrapper">
     <div class="col-md-1"></div>
 
     <div class="col-md-10">
       <div id="capacity" class="text-white">
-  
-        <h2 class="welcome-message">
-          We are Capacity Limited<br /><br />
-          IoT & AI Technology-based, Smart Utility Metering & Utility Auditing
-          Company in water, gas and energy.
-        </h2>
+        <h1 id="welcome-message"></h1>
+        <h2 id="continue"></h2>
       </div>
     </div>
 
@@ -168,23 +162,18 @@
   <!-- Testimonials section -->
 
   <div class="row testimonies text-center pt-5">
-    <h2 class="heading">Testimonials</h2>
+    <h2 class="test-heading">Testimonials</h2>
 
     <h3 class="text-center">What Our Clients Says</h3>
 
     <section class="testimonial-section">
       <div class="testimonial mySwiper">
         <div class="testi-content swiper-wrapper">
-
           <!-- looping through -->
           {% for testimonial in testimonials %}
 
           <div class="slide swiper-slide">
-            <img
-              src="{{ testimonial.image.url }}" 
-              alt="Image"
-              class="image"
-            />
+            <img src="{{ testimonial.image.url }}" alt="Image" class="image" />
             <p>{{testimonial.comment}}</p>
 
             <i class="bx bxs-quote-alt-left quote-icon"></i>
@@ -196,7 +185,6 @@
           </div>
 
           {% endfor %}
-      
         </div>
         <div class="swiper-button-next nav-btn"></div>
         <div class="swiper-button-prev nav-btn"></div>
