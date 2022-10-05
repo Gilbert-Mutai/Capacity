@@ -16,13 +16,13 @@ body {
 /* Project stylings */
 
 .projects {
-  background-color: #ffffff;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+    background-color:#f2ecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
 /* Shop stylings */
 
 .shop {
@@ -79,7 +79,7 @@ body {
 }
 
 .wrapper {
-  background-image: linear-gradient(rgba(24, 162, 56, 0.2), rgba(0, 0, 0, 0.2)),url("../img/landing-image.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/landing-image.jpeg');
   min-height: 80vh;
   background-size: cover;
   background-position: center;
