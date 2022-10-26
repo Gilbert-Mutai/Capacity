@@ -8,11 +8,21 @@ urlpatterns =[
     path('', views.index,name='home'),
     path("about-us/", views.aboutUs, name="about-us"),
     path("contact-us/", views.contactUs, name="contact-us"),
-    path("projects/", views.projects, name="projects"),
-    path("shop/", views.shop, name="shop"),
-    # path("solutions/", views.solutions, name="solutions"),
-    # path('', include("django.contrib.auth.urls")),
-    
+    path("programmes/", views.programmes, name="programmes"),
+
+    path("programme/agritech", views.agritech, name="agritech"),
+    path("programme/employment", views.employment, name="employment"),
+    path("programme/energy", views.energy, name="energy"),
+
+    path("programme/construction", views.construction, name="construction"),
+    path("programme/fintech", views.fintech, name="fintech"),
+    path("programme/education", views.education, name="education"),
+
+    path("programme/mobility", views.mobility, name="mobility"),
+    path("programme/health", views.health, name="health"),
+    path("programme/environment", views.environment, name="environment"),
+
+
 
 ]
 

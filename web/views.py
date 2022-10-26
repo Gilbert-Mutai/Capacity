@@ -18,14 +18,6 @@ def aboutUs(request):
     return render(request,'web/aboutUs.html')
 
 
-# def solutions(request):
-
-#     return render(request,'web/solutions.html')
-
-def shop(request):
-
-    return render(request,'web/shop.html')
-
 def contactUs(request):
     if request.method == 'POST':
         f_name = request.POST['f_name']
@@ -49,6 +41,46 @@ def contactUs(request):
    
     return render(request,'web/contactUs.html',context)
 
-def projects(request):
+def programmes(request):
 
-    return render(request,'web/projects.html')
+    return render(request,'web/programmes.html')
+
+def agritech(request):
+
+    return render(request,'web/agritech.html')
+
+def employment(request):
+
+    return render(request,'web/employment.html')
+
+def energy(request):
+
+    return render(request,'web/energy.html')
+
+def construction(request):
+
+    return render(request,'web/construction.html')
+
+def fintech(request):
+
+    return render(request,'web/fintech.html')
+
+def education(request):
+
+    return render(request,'web/education.html')
+
+def mobility(request):
+
+    return render(request,'web/mobility.html')
+
+def health(request):
+
+    return render(request,'web/health.html')
+
+def environment(request):
+
+    return render(request,'web/environment.html')
+
+
+
+

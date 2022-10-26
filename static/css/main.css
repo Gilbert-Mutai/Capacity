@@ -14,25 +14,7 @@ body {
   font-family: "Montserrat";
 }
 /* Project stylings */
-
-.projects {
-    background-color:#f2ecec;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   
-  
-/* Shop stylings */
-
-.shop {
-  background-color: #ffffff;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .top-nav {
   min-height: 10vh;
   background-color: #f4f4f4;
@@ -89,60 +71,6 @@ body {
 
 #welcome-message {
   padding-top: 10rem;
-}
-
-
-/* what we do section */
-
-.what-we-do {
-  background-color: #f2ecec;
- 
-  padding: 40px 40px 30px 40px;
-}
-.card{
-  background-color: #ffffff;
-}
-.heading {
-  color: green;
-  padding-top: 5px;
-
-  font-weight: bold;
-}
-
-.we-do-statement h5 {
-  color: #23395d;
-}
-
-h3 {
-  color: #23395d;
-}
-
-.read-more {
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
-  color: green;
-}
-
-.card h5 {
-  color: #23395d;
-}
-
-.card::before {
-  content: "";
-  height: 3px;
-  background-color: green;
-  position: absolute;
-  bottom: 0px;
-  width: 50px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  transition: all 0.5s ease;
-}
-
-.card:hover::before {
-  width: 100%;
 }
 
 /* Contact stylings */
@@ -379,4 +307,8 @@ details {
 
 details summary {
   outline: none;
+}
+
+.justify{
+  text-align: justify;
 }
